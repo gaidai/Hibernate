@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<hibernate-mapping package="entity">
-  <class name="mobiller.Entity.Friend" table="mobiller">
-    <id name="mobile" column="mobil"></id>
-    <property name="fname" column="fname"/>
-    <property name="name" column="name" />
-    <property name="date" column="date"/>
+<hibernate-mapping package="mobiller.entity">
+  <class name="mobiller.entity.Friend" table="mobiller">
+    <id column="mobil" name="mobile"/>
+    <property column="fname" name="fname"/>
+    <property column="name" name="name"/>
+    <property column="date" name="date"/>
   </class>
 </hibernate-mapping>

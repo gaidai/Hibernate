@@ -29,7 +29,7 @@
         <property name="show_sql">true</property>
  
       <!-- Mapping files -->
-        <mapping resource="hbm/Friend.hbm.xml"/>
+        <mapping class="mobiller.entity.Friend"/>
  
     </session-factory>
  
