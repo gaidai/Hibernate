@@ -1,4 +1,4 @@
-package Entity;
+package mobiller.Entity;
 
 
 public class Friend {

@@ -1,11 +1,9 @@
-package Entity;
+package mobiller.Entity;
 
 
 
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 
 public class Main {
@@ -15,8 +13,8 @@ public class Main {
  
         // Добавление новых предметов
         Friend friend = new Friend();
-        friend.setMobile("09704");
-        friend.setFname("Gaidai");
+        friend.setMobile("091101214");
+        friend.setFname("Gaidai1212");
         friend.setName("Stas");
         friend.setDate( dao.getdate());
         friend.setNumb(0);

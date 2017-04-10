@@ -1,10 +1,9 @@
-package Entity;
+package mobiller.Entity;
 
 
 
 import org.hibernate.cfg.Configuration;
 import org.hibernate.SessionFactory;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 
 public class HibernateUtil {

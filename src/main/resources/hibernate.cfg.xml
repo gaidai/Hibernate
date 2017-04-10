@@ -29,7 +29,7 @@
         <property name="show_sql">true</property>
  
       <!-- Mapping files -->
-        <mapping resource="Friend.hbm.xml"/>
+        <mapping resource="hbm/Friend.hbm.xml"/>
  
     </session-factory>
  
